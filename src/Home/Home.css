@@ -1,0 +1,8 @@
+.banner {
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tiendasabadoamv.appspot.com/o/banner.jpg?alt=media&token=ed9ad4ee-b500-4f29-8c38-706b05845475');
+    background-size: cover;
+    background-position:top center;
+    background-attachment:fixed;
+    padding: 25%;
+}
