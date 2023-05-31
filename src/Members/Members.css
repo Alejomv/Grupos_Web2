@@ -1,2 +1,6 @@
 .margensuperior {
     margin: 200p0x; }
+
+.blancoynegro{
+    filter: grayscale(1);
+}

@@ -16,8 +16,8 @@ export function Menu() {
     <Link to="/integrantes" className="menu-item"> <i className="fa fa-users" /> </Link>
     <Link to="/tienda" className="menu-item"> <i className="fa fa-cart-plus" /> </Link>
     <Link to="/formulario"className="menu-item"> <i className="fa fa-heart" /> </Link>
-    <Link to="/" className="menu-item"> <i className="fa fa-envelope" /> </Link>
-    <Link to="/" className="menu-item"> <i className="fa fa-cog" /> </Link>
+    <Link to="/hook" className="menu-item"> <i className="fa fa-houzz" /> </Link>
+    <Link to="/musica" className="menu-item"> <i className="fa fa-cog" /> </Link>
   </nav>
  
   
