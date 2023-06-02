@@ -15,14 +15,16 @@ export async function GenerarToken() {
     });
 
     const data = await response.json();
-    const accessToken = data.token_type + ' ' + data.access_token;
+    const accessToken = data.access_token;
 
     return accessToken;
   } catch (error) {
     console.error('Error al generar el token:', error);
     throw error;
+    console.lo
   }
 }
+
 
 export async function consultarCanciones() {
   try {
